@@ -46,128 +46,151 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* reset above */
 
-.buttons {
-    width: 98%;
-    height: 10%;
-    padding: 1% 1% 4% 1%;
-}
-nav li{
-    color:white;
-    display: inline-block;
+
+ul {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    letter-spacing: 2px;
-    border-radius: 25px;
+}
+nav {
+    /* border: 1px solid black; */
+    margin: 2% 10% 5%;
 }
 
-nav #li1 {
-        background-color:orangered;
-        width: 120px;
-        height: 40px;
-        padding: 20px;
-        margin: 0 5%;
-}
-
-nav #li1:hover {
-    background-color: peachpuff;
-    
-}
-
-nav #li2 {
-    background-color: lightskyblue;
+li {
+    height: 45px;
     width: 120px;
-    height: 40px;
-    padding: 20px;
-    margin: 0 5%;
-}
-
-nav #li2:hover {
-    background-color: lightblue;  
-}
-
-nav #li3 {
-    background-color:#FFCD6A;
-    width: 120px;
-    height: 40px;
-    padding: 20px;
-    margin: 0 5%;
-}
-nav #li3:hover {
-    background-color: #ffe0a8;
-}
-
-img {
-    width: 16%;
-    height: auto;
-    padding: 0 42%;
-
-}
-
-#headerimg {
-    border-radius: 50%;
-    margin: 10px 0;
-    width: 100%;
-    height: auto;
-}
-
-.intro {
-    display: inline-block;
-}
-
-.divHeader {
-    width: 98%;
-    margin: 1%;
-
-}
-
-.leftHeader {
-    width: 23%;
-    margin: 1%;
-    display:inline-block;
-}
-
-.rightHeader {
-    width: 62%;
-    padding: 10px;
-    margin-left: 10%;
-    display:inline-block;
-    text-align: center;
-    font-family: "Comic Sans MS";
-}
-
-.rightHeader h1 {
-    font-size: 3rem;
-    margin: 10px;
-}
-.rightHeader p {
-    letter-spacing: 1px;
-    font-size: 1.25rem;
-}
-
-.mainText {
-    text-align:center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    font-size: 1.1rem;
-    line-height: 1.5;
-    letter-spacing: 1px;
+    border: 4px solid transparent;
+}
+li:hover {
+    border: 4px double rgb(226, 195, 154);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.plan {
+    background-color: #FF764E;
+}
+.plan:hover {
+    background-color: #ff5b29;
+}
+.learn {
+    background-color: #5ED3EB;
+}
+.learn:hover {
+    background-color: #35cceb;
+}
+.get {
+    background-color: #FFCD69;
+}
+.get:hover {
+    background-color: #ffbd39;
+}
+
+.headImg {
+    width: 25%;
+    height: 25%;
+}
+.headImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.headText {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.headText h1 {
+    font-size: 3rem;
+    font-family: 'Brush Script MT', cursive;
+    /* border: 1px solid black; */
+}
+.headText p {
     width: 90%;
-    padding: 1% 2.5%;
-    margin: 2.5%;
-    background-color: burlywood;
-    font-family: "Lucida Sans Unicode";
-}
-
-.middle p{
     text-align: center;
-    letter-spacing: 1px;
+}
+p {
     line-height: 1.5;
-    width: 30%;
+    font-family: 'Roboto Mono', monospace;
+}
+.headBox {
+    width: 96%;
+    margin: 2%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: auto;
-    margin: 1% 35% 5%;
+}
+.discription {
+    width: 90%;
+    margin: 3%;
+    padding: 2%;
+    background-color: rgb(226, 195, 154);
+    color: white;
+    text-align: center;
 }
 
-#mountains {
+.fire {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid blue; */
+    margin: 2%;
+}
+.fire img {
+    width: 40%;
+    height: auto;
+}
+
+.rv {
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin: 2%;
+}
+.rv img {
+    width: 40%;
+    height: auto;
+
+}
+
+.midBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red */
+}
+
+.footerImg {
     width: 100%;
     height: auto;
-    padding: 0;
+    padding-top: 4%;
+    /* border: 1px solid black; */
+}
+
+footer {
+    /* border: 1px solid black; */
+    margin: 2% 10%;
 }
