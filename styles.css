@@ -49,6 +49,35 @@ table {
 /* reset above */
 
 
+ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+nav {
+    /* border: 1px solid black; */
+    margin: 2% 10%;
+}
+
+li {
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.plan {
+    background-color: #FF764E;
+}
+.learn {
+    background-color: #5ED3EB;
+}
+.get {
+    background-color: #FFCD69;
+}
 
 
 .fire {
