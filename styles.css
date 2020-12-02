@@ -102,6 +102,10 @@ li {
     font-family: 'Brush Script MT', cursive;
     border: 1px solid black;
 }
+.headText p {
+    width: 90%;
+    text-align: center;
+}
 p {
     line-height: 1.25;
     font-family: 'Lucida Console', monospace;
@@ -115,7 +119,14 @@ p {
     align-items: center;
     height: auto;
 }
-
+.discription {
+    width: 90%;
+    margin: 3%;
+    padding: 2%;
+    background-color: rgb(226, 195, 154);
+    color: white;
+    text-align: center;
+}
 
 .fire {
     display: flex;
