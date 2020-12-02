@@ -46,4 +46,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* reset above */
 
+
+
+
+.fire {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+}
+.fire img {
+    width: 50%;
+    height: auto;
+}
+
+.rv {
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rv img {
+    width: 50%;
+    height: auto;
+}
+
+.midBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
