@@ -79,6 +79,30 @@ li {
     background-color: #FFCD69;
 }
 
+.headImg {
+    width: 25%;
+    height: 25%;
+}
+.headImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.headText {
+    width: 60%;
+}
+.headText h1 {
+    font-size: 3rem;
+    font-family: 'Brush Script MT', cursive;
+}
+.headBox {
+    width: 96%;
+    margin: 2%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .fire {
     display: flex;
